@@ -35,7 +35,7 @@ namespace MatchGame
         {
             tenthOfSecondsElapsed++;
             timeTextBlock.Text = (tenthOfSecondsElapsed/10F).ToString("0.0s");
-            if(matchesFound==8)
+            if(matchesFound==6)
             {
                 timer.Stop();
                 timeTextBlock.Text = timeTextBlock + " - Tekrar Oyna";
